@@ -1,3 +1,2 @@
-# About Repository
-
-Repository for personal portfolio development and creation
+# Ryan Apellanes Portfolio
+github repository for personal portfolio development and creation
