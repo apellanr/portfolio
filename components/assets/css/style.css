@@ -523,14 +523,17 @@ textarea.form-control {
 }
 
 .iconbox-icon {
-	margin: 0 0 15px;
-	font-size: 32px;
+	margin: 0 0 10px;
 	color: #222;
 }
 
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+}
+
+.devicon {
+	max-width: 10em;
 }
 
 /* ---------------------------------------------- /*
@@ -1176,7 +1179,7 @@ button.mfp-close {
 	}
 
 	.name-brand {
-		font-size: 55px;
+		font-size: 50px;
 	}
 
 	.occupation {
