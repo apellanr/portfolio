@@ -511,29 +511,37 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Servise
+ * Skills
 /* ---------------------------------------------- */
 
 .iconbox {
-	background: #fff;
-	border-bottom: 1px solid #d4d4d4;
-	text-align: center;
-	padding: 40px 20px;
-	margin: 0 0 20px;
+	/* background: #fff; */
+    /* border-bottom: 1px solid #d4d4d4; */
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 0 20px;
 }
 
 .iconbox-icon {
-	margin: 0 0 10px;
+	margin: 0 0 15px;
 	color: #222;
 }
 
 .iconbox-title {
-	margin: 0 0 15px;
+	/*margin: 0 0 15px;*/
 	padding: 0;
 }
 
 .devicon {
 	max-width: 10em;
+}
+
+.react {
+	fill: rgb(79, 218, 250);
+}
+
+.devtools {
+	margin-top: 60px;
 }
 
 /* ---------------------------------------------- /*
