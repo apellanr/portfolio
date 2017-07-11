@@ -20,7 +20,7 @@ img {
 }
 
 a {
-	color: #49e2d6;
+	color: rgb(57, 172, 104);
 }
 
 a:hover {
@@ -287,8 +287,8 @@ textarea.form-control {
 }
 
 .btn-custom-1 {
-	background: #49e2d6;
-	border: 1px solid #49e2d6;
+	background: rgb(57, 172, 104);
+	border: 1px solid rgb(57, 172, 104);
 	color: #fff;
 }
 
@@ -302,8 +302,8 @@ textarea.form-control {
 }
 
 .btn-custom-2 {
-	background: #49e2d6;
-	border: 1px solid #49e2d6;
+	background: rgb(57, 172, 104);
+	border: 1px solid rgb(57, 172, 104);
 	color: #fff;
 }
 
@@ -326,8 +326,8 @@ textarea.form-control {
 .btn-custom-3:focus,
 .btn-custom-3:active,
 .btn-custom-3.active {
-	background: #49e2d6;
-	border-color: #49e2d6;
+	background: #4e9490;
+	border-color: #4e9490;
 	color: #FFF;
 }
 
@@ -430,7 +430,7 @@ textarea.form-control {
 }
 
 .module-line {
-	background: #49e2d6;
+	background: rgb(57, 172, 104);
 	width: 55px;
 	height: 1px;
 	margin: 30px auto;
@@ -470,7 +470,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/hero-img.jpg);
+	background: url(../images/venice.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -497,16 +497,17 @@ textarea.form-control {
 }
 
 .name-brand {
-	font-size: 55px;
-	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+	font-size: 57px;
+	text-shadow: 1px 4px 13px rgba(0,0,0,.75);
+	font-family: 'Abril Fatface', cursive;
 }
 
 .occupation {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 23px;
-	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
-	text-transform: none;
-	margin: 15px 0;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 4px 13px rgba(0,0,0,.75);
+	text-transform: uppercase;
+	margin: 10px 0;
 }
 
 /* ---------------------------------------------- /*
@@ -522,14 +523,17 @@ textarea.form-control {
 }
 
 .iconbox-icon {
-	margin: 0 0 15px;
-	font-size: 32px;
+	margin: 0 0 10px;
 	color: #222;
 }
 
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+}
+
+.devicon {
+	max-width: 10em;
 }
 
 /* ---------------------------------------------- /*
@@ -546,7 +550,7 @@ textarea.form-control {
 
 .side-image {
 	position: absolute;
-	background: url(../images/about.jpg) scroll center no-repeat;
+	background: url(../images/about-img.jpg) scroll top center no-repeat;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -886,12 +890,17 @@ button.mfp-close {
 	display: block;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	/*border: 1px solid rgba(255, 255, 255, .1);*/
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 			border-radius: 50%;
 	font-size: 14px;
 	color: rgba(255, 255, 255, .2);
+}
+
+.social-links a:hover {
+	border: 1px solid rgba(255, 255, 255, .5);
+	color: rgba(255, 255, 255, .5);
 }
 
 .linkedin {
@@ -915,11 +924,6 @@ button.mfp-close {
 }
 .fa-linkedin, .fa-google-plus, .fa-twitter {
 	color: #ffffff;
-}
-
-.social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .5);
 }
 
 /* ---------------------------------------------- /*
@@ -961,7 +965,7 @@ button.mfp-close {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #49e2d6;
+	color: rgb(57, 172, 104);
 }
 
 .navbar-custom .navbar-brand {
@@ -1174,7 +1178,13 @@ button.mfp-close {
 		letter-spacing: 3px;
 	}
 
+	.name-brand {
+		font-size: 50px;
+	}
 
+	.occupation {
+		font-size: 25px;
+	}
 
 }
 
