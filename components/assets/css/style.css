@@ -536,14 +536,18 @@ textarea.form-control {
 	max-width: 10em;
 }
 
-.react {
-	fill: rgb(79, 218, 250);
-}
-
 .devtools {
-	margin-top: 60px;
+	margin-top: 50px;
 }
 
+.materialize {
+	max-width: 12em;
+	margin-bottom: -17px;
+}
+
+.redux { margin-bottom: 17px;}
+.postman, .phpstorm, .lightroom { margin-top: 22px;}
+.chrome { margin-top: 24px; }
 /* ---------------------------------------------- /*
  * About
 /* ---------------------------------------------- */
