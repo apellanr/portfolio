@@ -424,9 +424,9 @@ textarea.form-control {
 }
 
 .module-subtitle {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	font-size: 14px;
+	font-family: "Roboto Condensed", "Times New Roman", Times, serif;
+	font-style: none;
+	font-size: 15px;
 }
 
 .module-line {
@@ -530,25 +530,26 @@ textarea.form-control {
 .iconbox-title {
 	/*margin: 0 0 15px;*/
 	padding: 0;
+	white-space: nowrap;
 }
 
 .devicon {
-	max-width: 10em;
+	max-width: 8em;
 }
 
-.devtools {
+/*.devtools {
 	margin-top: 50px;
 }
 
 .materialize {
 	max-width: 12em;
 	margin-bottom: -17px;
-}
+}*/
 
-.redux { margin-bottom: 17px;}
+/*.redux { margin-bottom: 17px;}
 .postman, .phpstorm, .lightroom { margin-top: 22px;}
 .postman { margin-top: 21px;}
-.chrome { margin-top: 24px; }
+.chrome { margin-top: 24px; }*/
 /* ---------------------------------------------- /*
  * About
 /* ---------------------------------------------- */
@@ -595,8 +596,9 @@ textarea.form-control {
 }
 
 .iconboxleft-title {
-	margin: 0 0 15px;
-	padding: 0;
+	margin: 0;
+	padding-top: 5px;
+	font-size: 19px;
 }
 
 /* ---------------------------------------------- /*
@@ -702,7 +704,7 @@ transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
 }
 
 .caption-inner .portfolio-item-title {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 }
 
@@ -820,36 +822,6 @@ button.mfp-close {
 	   -moz-border-radius: 3px 0 0 3px;
 		 -o-border-radius: 3px 0 0 3px;
 			border-radius: 3px 0 0 3px;
-}
-
-/* ---------------------------------------------- /*
- * Twitter
-/* ---------------------------------------------- */
-
-#twitter {
-	text-align: center;
-}
-
-.tweet {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	font-size: 16px;
-}
-
-.timePosted {
-	font: 400 13px/1.8 'Roboto Condensed', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 30px 0;
-	color: #777;
-}
-
-.interact {
-	margin: 0;
-}
-
-.interact a {
-	margin-right: 10px;
 }
 
 /* ---------------------------------------------- /*
