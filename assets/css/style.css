@@ -537,19 +537,10 @@ textarea.form-control {
 	max-width: 8em;
 }
 
-/*.devtools {
+.devtools {
 	margin-top: 50px;
 }
 
-.materialize {
-	max-width: 12em;
-	margin-bottom: -17px;
-}*/
-
-/*.redux { margin-bottom: 17px;}
-.postman, .phpstorm, .lightroom { margin-top: 22px;}
-.postman { margin-top: 21px;}
-.chrome { margin-top: 24px; }*/
 /* ---------------------------------------------- /*
  * About
 /* ---------------------------------------------- */
