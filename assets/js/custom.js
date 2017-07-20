@@ -44,6 +44,10 @@
 			offset: 70
 		})
 
+		$(document).on('click',function(){
+			$('.collapse').collapse('hide');
+		})
+
 		/* ---------------------------------------------- /*
 		 * Background image.
 		/* ---------------------------------------------- */
@@ -223,8 +227,8 @@
 			]
 		});
 
-		var image = new google.maps.MarkerImage('assets/images/map-icon.png',
-			new google.maps.Size(80, 80),
+		var image = new google.maps.MarkerImage('assets/images/map-marker.png',
+			new google.maps.Size(60, 60),
 			new google.maps.Point(0, 0),
 			new google.maps.Point(40, 40)
 		);

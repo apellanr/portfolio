@@ -9,7 +9,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400,300);
 
 body {
-	font: 400 12px/1.8 'Open Sans', serif;
+	font: 400 12px/1.8 'Slabo 27px', serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -553,6 +553,19 @@ textarea.form-control {
 	position: relative;
 }
 
+.snippet {
+	font-style: italic;
+	margin: 0 0 10px;
+}
+
+.about {
+	margin: 0 0 15px;
+}
+
+.about-header {
+	margin: 0 0 20px;
+}
+
 .side-image {
 	position: absolute;
 	background: url(../images/about-img.jpg) scroll top center no-repeat;
@@ -565,7 +578,7 @@ textarea.form-control {
 
 .side-image-text {
 	background: #fff;
-	padding: 100px 60px 50px;
+	padding: 50px 60px 50px;
 }
 
 .iconboxleft {
@@ -847,6 +860,7 @@ button.mfp-close {
 
 .copyright {
 	margin: 0;
+	font-size: 14px;
 }
 
 .social-links {
@@ -1142,26 +1156,28 @@ button.mfp-close {
 }
 
 @media (max-width: 480px) {
-
 	h1 {
 		font-size: 34px;
 		letter-spacing: 3px;
 	}
-
 	h2 {
 		font-size: 24px;
 		margin: 0 0 30px;
 		letter-spacing: 3px;
 	}
-
 	.name-brand {
 		font-size: 50px;
+		font-family: 'Playfair Display', serif;
 	}
-
-	.occupation {
-		font-size: 25px;
+	.occupation { font-size: 25px; }
+	.module-title { text-align: center; }
+	.snippet { text-align: center; }
+	.about { text-align: justify; }
+	.about-header { margin: 0 0 15px; }
+	.navbar-right>li>a {
+		text-align: center;
+		font-size: 13px !important;
 	}
-
 }
 
 .sli-examples .item:hover {
