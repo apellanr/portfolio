@@ -44,6 +44,10 @@
 			offset: 70
 		})
 
+		$(document).on('click',function(){
+			$('.collapse').collapse('hide');
+		})
+
 		/* ---------------------------------------------- /*
 		 * Background image.
 		/* ---------------------------------------------- */
@@ -58,46 +62,6 @@
 			$('#home').css({'background-attachment': 'scroll'});
 		} else {
 			$('#home').parallax('50%', 0.1);
-		}
-
-		/* ---------------------------------------------- /*
-		 * Twitter
-		/* ---------------------------------------------- */
-
-		var twitterConfig = {
-			id: '345170787868762112',
-			domId: '',
-			maxTweets: 3,
-			enableLinks: true,
-			showUser: false,
-			customCallback: handleTweets
-		};
-
-		twitterFetcher.fetch(twitterConfig);
-
-		function handleTweets(tweets) {
-			var x = tweets.length;
-			var n = 0;
-			var html = '';
-			while(n < x) {
-				html += '<div class="owl-item">' + tweets[n] + '</div>';
-				n++;
-			}
-			$('.testimonials').html(html);
-
-			$('.twitter_retweet_icon').html('<i class="fa fa-retweet"></i>');
-			$('.twitter_reply_icon').html('<i class="fa fa-reply"></i>');
-			$('.twitter_fav_icon').html('<i class="fa fa-star"></i>');
-
-			$('.testimonials').owlCarousel({
-				singleItem: true,
-				navigation: false,
-				pagination: false,
-				slideSpeed : 300,
-				paginationSpeed : 400,
-				autoPlay: 5000,
-				navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
-			});
 		}
 
 		/* ---------------------------------------------- /*
@@ -205,7 +169,7 @@
 		 * Google Map
 		/* ---------------------------------------------- */
 
-		var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);
+		var mapLocation = new google.maps.LatLng(33.684567, -117.826505);
 
 		map = new GMaps({
 			streetViewControl : false,
@@ -216,12 +180,55 @@
 			scrollwheel: false,
 			center: mapLocation,
 			el: '#map',
-			zoom: 16,
-			styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+			zoom: 12,
+			styles: [
+				{
+					"featureType": "road",
+					"elementType": "geometry",
+					"stylers": [
+						{
+							"lightness": 100
+						},
+						{
+							"visibility": "simplified"
+						}
+					]
+				},
+				{
+					"featureType": "water",
+					"elementType": "geometry",
+					"stylers": [
+						{
+							"visibility": "on"
+						},
+						{
+							"color": "#C6E2FF"
+						}
+					]
+				},
+				{
+					"featureType": "poi",
+					"elementType": "geometry.fill",
+					"stylers": [
+						{
+							"color": "#C5E3BF"
+						}
+					]
+				},
+				{
+					"featureType": "road",
+					"elementType": "geometry.fill",
+					"stylers": [
+						{
+							"color": "#D1D1B8"
+						}
+					]
+				}
+			]
 		});
 
-		var image = new google.maps.MarkerImage('assets/images/map-icon.png',
-			new google.maps.Size(80, 80),
+		var image = new google.maps.MarkerImage('assets/images/map-marker.png',
+			new google.maps.Size(60, 60),
 			new google.maps.Point(0, 0),
 			new google.maps.Point(40, 40)
 		);
@@ -231,7 +238,6 @@
 			icon: image,
 			animation: google.maps.Animation.BOUNCE,
 		});
-
 	});
 
 })(jQuery);
