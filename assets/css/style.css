@@ -1,6 +1,4 @@
 /**
- * Support: web-master72@yandex.ru;
- *
 /* ---------------------------------------------- /*
  * General styles
 /* ---------------------------------------------- */
@@ -709,14 +707,13 @@ transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
 }
 
 .caption-inner .portfolio-item-title {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 }
 
 .caption-inner .portfolio-item-desc {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	font-size: 13px;
+	font-size: 15px;
 	color: #777;
 }
 
@@ -729,7 +726,9 @@ transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
 	transform: scale(1);
 }
 
-/* Ajax portfolio */
+/* ---------------------------------------------- /*
+Ajax portfolio 
+---------------------------------------------- */
 
 .white-popup-block {
 	position: relative;
