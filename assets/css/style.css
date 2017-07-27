@@ -773,7 +773,14 @@ Ajax portfolio
 	background: #49e2d6;
 	width: 55px;
 	height: 1px;
-	margin: 15px auto;
+	margin: 50px auto;
+}
+
+.popup-description {
+	margin-top: -3.5rem;
+}
+.popup-description > p {
+	font-size: 1.75rem;
 }
 
 .mfp-close-btn-in .mfp-close {
