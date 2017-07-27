@@ -713,6 +713,7 @@ transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
 
 .caption-inner .portfolio-item-desc {
 	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
 	font-size: 15px;
 	color: #777;
 }
@@ -908,8 +909,8 @@ button.mfp-close {
 	background-color: #ffffff;
 }
 
-.google-plus {
-	background-color: #dd4b39;
+.instagram {
+	background-color: #bc2a8d;
 }
 
 .twitter {
@@ -919,7 +920,7 @@ button.mfp-close {
 .fa-github-alt {
 	color: #000;	
 }
-.fa-linkedin, .fa-google-plus, .fa-twitter {
+.fa-linkedin, .fa-google-plus, .fa-twitter, .fa-instagram {
 	color: #ffffff;
 }
 
