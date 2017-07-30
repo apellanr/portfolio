@@ -561,9 +561,10 @@ textarea.form-control {
 	text-align: justify;
 }
 
-.about-header {
+ .about-header {
 	margin: 0 0 20px;
-}
+	text-align: center;
+} 
 
 .side-image {
 	position: absolute;
