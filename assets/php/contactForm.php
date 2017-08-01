@@ -2,7 +2,7 @@
 
 	// Contact
 	require_once('credentials.php');
-	$subject = '';
+	$subject = 'New portfolio message from...';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
 		$name    = $_POST['c_name'];

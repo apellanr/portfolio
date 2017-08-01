@@ -559,13 +559,11 @@ textarea.form-control {
 .about-desc {
 	margin: 0 0 15px;
 	text-align: justify;
-	font-size: 1.75rem;
 }
 
  .about-header {
 	margin: 0 0 20px;
-	text-align: center;
-} 
+}
 
 .side-image {
 	position: absolute;
@@ -580,6 +578,10 @@ textarea.form-control {
 .side-image-text {
 	background: #fff;
 	padding: 50px 60px 50px;
+}
+
+.help-block {
+	font-size: 15px;
 }
 
 .iconboxleft {
@@ -954,7 +956,7 @@ button.mfp-close {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 11px;
+	font-size: 15px;
 	letter-spacing: 3px;
 	color: #222;
 }
@@ -970,7 +972,7 @@ button.mfp-close {
 
 .navbar-custom .navbar-brand {
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .navbar-custom .dropdown-menu {
@@ -1162,7 +1164,12 @@ button.mfp-close {
 	.mouse-icon {
 		display: none;
 	}
+}
 
+@media (min-width: 768px) {
+	.navbar-right {
+		margin-right: -78px;
+	}
 }
 
 @media (max-width: 480px) {

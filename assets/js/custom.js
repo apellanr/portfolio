@@ -119,9 +119,10 @@
 		/* ---------------------------------------------- /*
 		 * Contact form ajax
 		/* ---------------------------------------------- */
+		$('#contact-form').validator();
 
 		$('#contact-form').submit(function(e) {
-
+			
 			e.preventDefault();
 
 			var c_name = $('#c_name').val();

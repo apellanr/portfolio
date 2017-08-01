@@ -583,16 +583,19 @@
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
 								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name" required="required" data-error="Name is required.">
+								<div class="help-block with-errors"></div>
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
 								<label class="sr-only" for="c_email">Email address</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+								<div class="help-block with-errors"></div>
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message" required="required" data-error="Please leave me a message."></textarea>
+								<div class="help-block with-errors"></div>
 							</div>
 
 							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Submit
@@ -664,6 +667,7 @@
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<script src="assets/js/jquery.sticky.js"></script>
 	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/validator.js"></script>
 	<!-- Google Maps -->
 	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDezZalgNIeORIEQ8VgOEudgLzj00bz2PY"></script>  
 	<script src="assets/js/gmaps.js"></script>
