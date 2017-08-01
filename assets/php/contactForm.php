@@ -1,7 +1,7 @@
 <?php
 
 	// Contact
-	$to = '';
+	require_once('credentials.php');
 	$subject = '';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
