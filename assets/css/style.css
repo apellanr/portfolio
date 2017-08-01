@@ -233,7 +233,7 @@ h6 {
 .form-control {
 	background: #FFF;
 	border: 2px solid #D8E1E4;
-	font-size: 12px;
+	font-size: 15px;
 	padding: 0 15px;
 }
 
@@ -424,7 +424,7 @@ textarea.form-control {
 .module-subtitle {
 	font-family: "Roboto Condensed", "Times New Roman", Times, serif;
 	font-style: none;
-	font-size: 15px;
+	font-size: 1.75rem;
 }
 
 .module-line {
@@ -532,7 +532,7 @@ textarea.form-control {
 }
 
 .devicon {
-	max-width: 8em;
+	max-width: 9em;
 }
 
 .devtools {
@@ -556,9 +556,10 @@ textarea.form-control {
 	margin: 0 0 10px;
 }
 
-.about {
+.about-desc {
 	margin: 0 0 15px;
 	text-align: justify;
+	font-size: 1.75rem;
 }
 
  .about-header {
