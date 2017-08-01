@@ -2,7 +2,7 @@
 
 	// Contact
 	$to = 'ryanapellanes.dev@gmail.com';
-	$subject = 'Subject here...';
+	$subject = 'Portfolio Message from ...';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
 		$name    = $_POST['c_name'];
