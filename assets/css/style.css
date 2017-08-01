@@ -444,6 +444,10 @@ textarea.form-control {
 	color: #999;
 }
 
+.callout-description {
+	font-size: 17px;
+}
+
 .callout h2 {
 	font-size: 20px;
 	letter-spacing: 1px;
@@ -1155,6 +1159,7 @@ button.mfp-close {
 
 	.callout {
 		text-align: center;
+		font-size: 15px;
 	}
 
 	.side-image-text {
