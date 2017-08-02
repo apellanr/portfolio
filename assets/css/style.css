@@ -560,9 +560,14 @@ textarea.form-control {
 	margin: 0 0 10px;
 }
 
-.about-desc {
+.about-desc, .about-snippet {
 	margin: 0 0 15px;
 	text-align: justify;
+}
+
+.about-snippet {
+	font-weight: 700;
+    font-size: 19px;
 }
 
  .about-header {
