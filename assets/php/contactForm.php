@@ -1,5 +1,4 @@
 <?php
-
 	// Contact
 	require_once('credentials.php');
 	$subject = 'New portfolio message from...';
