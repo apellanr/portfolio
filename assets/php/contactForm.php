@@ -3,12 +3,13 @@
 	require_once('credentials.php');
 	$subject = 'New portfolio message from...';
 
-	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
+	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_company'])  && isset($_POST['c_message'])){
 		$name    = $_POST['c_name'];
 		$from    = $_POST['c_email'];
+		$company    = $_POST['c_company'];
 		$message = $_POST['c_message'];
 
-		if (mail($to, $subject, $message, $from)) {
+		if (mail($to, $subject, $company, $message, $from)) {
 			$result = array(
 				'message' => 'Thanks for contacting me!',
 				'sendstatus' => 1
