@@ -127,11 +127,10 @@
 
 			var c_name = $('#c_name').val();
 			var c_email = $('#c_email').val();
-			var c_company = $('#c_company').val();
 			var c_message = $('#c_message ').val();
 			var responseMessage = $('#contact-form .ajax-response');
 
-			if (( c_name== '' || c_company == '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
+			if (( c_name== '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
 				responseMessage.fadeIn(500);
 				responseMessage.html('<i class="fa fa-warning"></i> Please fix the errors and try again.');
 			}
@@ -144,7 +143,6 @@
 					data: {
 						c_email: c_email,
 						c_name: c_name,
-						c_company: c_company,
 						c_message: c_message
 					},
 					beforeSend: function(result) {
