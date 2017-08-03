@@ -1,6 +1,6 @@
 <?php
 	// Contact
-	require_once('credentials.php');
+	$to = 'ryanapples.portfolio@gmail.com';
 	$subject = 'New portfolio message from...';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_company']) && isset($_POST['c_message'])){
